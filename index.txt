@@ -1,0 +1,49 @@
+**********************************************************************************************************************************************************************
+                                  COMANDO PARA RESTAURAR/CONCERTA O SISTEMA OPERACIONAL DO LINUX: Xubunto 32bits
+**********************************************************************************************************************************************************************                                  
+
+1º Fazer um pen Drive bootável com o Sistema operacional (nesse caso: Xubunto)
+2º Fazer como se fosse uma formação porém ao abrir a interface com o sistema rodando no pen drive, iremos abrir o terminal Linux , entrar como root e executar os seguintes comandos:
+
+fdisk -l                   ---------> Irá mostrar onde estão instalados a iso tanto no pen drive ou HD/SSD
+
+3º Ao identificar onde está salvo o linux no HD/SSD e onde está o pendrive
+
+fsck -y /dev/sda1              -------------> Esse comando fazerá a correção do sistema operancional corrompido
+
+poweroff     OR   reboot         ------------> Depois podemos executar esse comando poweroof para desligar ou reboot para iniciar o computador               
+
+
+**********************************************************************************************************************************************************************
+                                  COMANDO PARA ALTERAR O NOME DO COMPUTADOR NO SISTEMA OPERACIONAL LINUX : XUBUNTO
+**********************************************************************************************************************************************************************                                  
+----->Alterando o nome da Máquina
+1º     sudo su 
+
+2º     vim /etc/hosts
+
+3º     Aperte no teclado insert para ativar o modo editação no arquivo
+
+4º     Identifique o noome antigo e troque para o nome que deseja . Ao terminar aperte novamente a tecla insert do seu teclado
+
+5º     Depois em seguida aperta a tecla ESC 
+
+6º      Digite :wq e aperte enter
+
+
+------>Alterando o Resolve name 
+
+1º     sudo su 
+
+2º     vim /etc/hostname
+
+3º     Aperte no teclado insert para ativar o modo editação no arquivo
+
+4º     Identifique o nome antigo e troque para o mesmo nome que foi atualizado acima. Ao terminar aperte novamente a tecla insert do seu teclado
+
+5º     Depois em seguida aperta a tecla ESC 
+
+6º      Digite :wq e aperte enter
+
+7º      reboot   -->Informe esse comando no terminal para iniciar o computador e atualizar as configurações feitas
+
