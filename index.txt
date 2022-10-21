@@ -18,6 +18,8 @@ poweroff     OR   reboot         ------------> Depois podemos executar esse coma
                                   COMANDO PARA ALTERAR O NOME DO COMPUTADOR NO SISTEMA OPERACIONAL LINUX : XUBUNTO
 **********************************************************************************************************************************************************************                                  
 ----->Alterando o nome da Máquina
+Entre no terminal do Linux em modo root e informe os comandos abaixo : 
+
 1º     sudo su 
 
 2º     vim /etc/hosts
